@@ -11,3 +11,10 @@ app.get("/lessons", (req, res)=> {
             price: 100
            
         },
+
+        {
+            topic: "Math",
+               location: "Brent Cross", 
+               price: 100
+              
+           },

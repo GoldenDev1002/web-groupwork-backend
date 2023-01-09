@@ -36,3 +36,15 @@ app.get("/lessons", (req, res)=> {
     res.json(lessons);
    // res.send("to the new file ");
 })
+
+app.get("/user", (req, res)=> {
+    app.set("json spaces", 3);
+    let userDetails = [
+        {
+            email: "user@email.com",
+            password : "mypassword"
+              
+           },
+    ]
+    res.json(userDetails)
+})

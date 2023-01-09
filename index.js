@@ -49,4 +49,6 @@ app.get("/user", (req, res)=> {
     res.json(userDetails)
 })
 
-
+app.listen("2100", ()=> {
+    console.log("this is to the port 2100");
+})

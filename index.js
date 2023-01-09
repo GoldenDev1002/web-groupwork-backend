@@ -39,13 +39,13 @@ app.get("/lessons", (req, res)=> {
 
 app.get("/user", (req, res)=> {
     app.set("json spaces", 3);
-    let userDetails = [
+    let userDetails = 
         {
             email: "user@email.com",
             password : "mypassword"
               
-           },
-    ]
+           }
+    
     res.json(userDetails)
 })
 
